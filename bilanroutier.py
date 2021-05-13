@@ -15,14 +15,12 @@ import numpy as np
 import pandas as pd
 from geopy.geocoders import GoogleV3
 # import googlemaps
-
-os.environ["GOOGLE_API_KEY"] = "AIzaSyAyaw1iGakoqrMSZZKagVFT98ZaQ-14W_U"
-import geocoder
+# import geocoder
 
 #OUTPUT_PATH = Path("C:\\Users\\tavr1902\\Bilan_routier_carte")
 OUTPUT_PATH = Path("./")
 DEBUG = True
-API = 'AIzaSyD7ROV7w9OkbU_kmhhm6NfODCWPx76W_Y8'
+API = 'YOUR API KEY'
 
 
 def main(csv_input: Union[Path, str],
